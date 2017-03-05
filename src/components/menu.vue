@@ -17,10 +17,10 @@
             <a href="#page-top"></a>
           </li>
           <li class="page-scroll">
-            <a href="#cenik">Ceník</a>
+            <router-link to="/cenik">Ceník</router-link>
           </li>
           <li class="page-scroll">
-            <a href="#kontakt">Kontakt</a>
+            <router-link to="/kontakt">Kontakt</router-link>
           </li>
         </ul>
       </div>

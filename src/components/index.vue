@@ -91,14 +91,6 @@
       max-width: 80%;
       padding-bottom: 50px;
     }
-
-    .row-eq-height {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-    }
-
     .portfolio-item {
       position: relative;
     }
