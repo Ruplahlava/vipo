@@ -16,12 +16,12 @@
           <li class="hidden">
             <a href="#page-top"></a>
           </li>
-          <li class="page-scroll">
-            <router-link to="/cenik">Ceník</router-link>
-          </li>
-          <li class="page-scroll">
-            <router-link to="/kontakt">Kontakt</router-link>
-          </li>
+          <router-link tag="li" to="/cenik" active-class="active">
+            <a>Ceník</a>
+          </router-link>
+          <router-link tag="li" to="/kontakt" active-class="active">
+            <a>Kontakt</a>
+          </router-link>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
