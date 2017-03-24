@@ -9,6 +9,8 @@
 <script>
   import menu from './components/menu.vue'
   import footer from './components/footer.vue'
+  import 'bootstrap'
+  import './assets/startbootstrap-freelancer-gh-pages/js/freelancer'
   export default{
     components: {
       vipoMenu: menu,
